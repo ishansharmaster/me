@@ -51,10 +51,9 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
   height: 100%;
   width: 100%;
-}
+font-family: 'Raleway', sans-serif;}
 body {
   color: #2f2f2f;
   font-size: 16px;
@@ -456,7 +455,6 @@ h3,
 h4,
 h5 {
   letter-spacing: 0.8px;
-  font-family: 'Roboto Slab', serif;
 }
 p {
   letter-spacing: 0.5px;
@@ -480,7 +478,6 @@ p {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
 }
 .job {
   font-size: 14px;
@@ -529,7 +526,7 @@ p {
   min-width: 300px;
   left: 50%;
   top: 50%;
-  padding: 65px;
+  padding: 50px;
   background: rgba(255, 255, 255, 0.8);
   outline: 4px double #FFFFFF;
   outline-offset: 8px;
@@ -696,7 +693,6 @@ ul.portfolio-image li .desc{
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 .text-grey {
