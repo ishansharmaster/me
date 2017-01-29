@@ -396,7 +396,7 @@
     };
 
     $.fn.typed.defaults = {
-        strings: ["My name is Ishan.", "I'm a student at Cal.", "Explore and enjoy!",],
+        strings: ["My name is Ishan.", "I'm a student at Cal.", "Explore and enjoy!"],
         stringsElement: null,
         // typing speed
         typeSpeed: 0,
