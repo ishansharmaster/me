@@ -618,7 +618,7 @@ ul.portfolio-image li:hover img {
   -webkit-filter: grayscale(20%);
   transform: scale(1.15);
 }
-ul.portfolio-image li:hover .image-bg {opacity: 1;}
+ul.portfolio-image li:hover .image-bg {opacity: 0;}
 ul.portfolio-image li:hover .description-wrap {
   background: rgba(186, 186, 186, 0.6);
 }
@@ -828,12 +828,12 @@ ul.portfolio-image li .desc{
   left: 0px;
   overflow: hidden;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-bottom: 30px;
 }
 .grid-item .wrap-article {
-  border: 1px solid rgba(129, 129, 129, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.333);
   background: #ffffff;
   padding: 30px 20px;
 }
