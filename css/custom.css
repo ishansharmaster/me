@@ -300,6 +300,14 @@ hr.style15:after {
 }
 
 @media (max-width: 1024px) {
+  .para1{
+    background-image: url("../img/parallax-img/transport-mobile.jpg");
+  }
+
+  .para3{
+    background-image: url("../img/parallax-img/innovation-mobile.jpg");
+  }
+
   .cardTop {
     display: none;
   }
@@ -356,12 +364,12 @@ hr.style15:after {
 
   .para2{
     background-position: 37.5% 25%;
-    background-size: contain;
+  
   }
 
   .para3{
     background-position: right;
-    background-size: contain;
+
   }
 
   #web-exp-header{
