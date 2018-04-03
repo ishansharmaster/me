@@ -4679,7 +4679,7 @@ tbody.collapse.show {
   border-bottom-left-radius: 0.25rem;
 }
 
-.list-group-item:hover, .list-group-item:focus {
+.list-group-item:focus {
   z-index: 1;
   text-decoration: none;
 }
