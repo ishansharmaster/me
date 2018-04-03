@@ -307,7 +307,7 @@ hr.style15:after {
   .cardBottom{
     margin: 4vh;
     box-shadow: 0, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+    padding-bottom: 7vh;
   }
 
   li{
@@ -356,10 +356,12 @@ hr.style15:after {
 
   .para2{
     background-position: 37.5% 25%;
+    background-size: contain;
   }
 
   .para3{
     background-position: right;
+    background-size: contain;
   }
 
   #web-exp-header{
