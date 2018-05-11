@@ -1,0 +1,433 @@
+.lightFont {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+
+}
+.lightFont:hover{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: black;
+}
+
+.darkThin{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+
+.job-org{
+  font-size: 1.7vw;
+}
+
+
+
+
+.div-btn{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: none !important;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+
+}
+
+.div-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.no-margin{
+  margin: 0px !important;
+}
+
+.small-margin{
+  margin: 3% !important;
+}
+
+.expCard{
+  padding: 5%;
+  text-align: center;
+}
+
+.remove-shadow{
+  text-shadow: none !important;
+}
+
+.ind-Card{
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0, 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5vw;
+  background-color: rgba(255,255,255,.83);
+  padding-top: 1%
+}
+
+.endorser-box{
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-top: 2%;
+  width: 30vh;
+  margin: 2vh 10vh 2vh 10vh;
+  padding: 2vh 2vh 0vh 2vh;
+}
+
+
+.cardContainer{
+  border-right: 2px black;
+  padding-bottom: 1%
+}
+
+.cardPane{
+  background-color: #F8F8F8;
+  border-radius: 1px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.cardPane:hover{
+  background-color: #f7d116;
+}
+
+.cardPaneAuxHover{
+  background-color: #f7d116;
+
+}
+
+.overviewPuns{
+  font-family: "Raleway", sans-serif;
+  font-size: 2vw
+}
+
+.overviewImage{
+  width: 4vw;
+  height: auto;
+}
+
+.list-group-item {
+  background-color: transparent;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  border-radius: 0;
+  color: #000;
+  font-size: 1.15vw;
+}
+
+.cardTop{
+  /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0px -15px 20px -2px rgba(0,0,0,.19);
+  height: 4vh;
+
+}
+
+.cardBottom{
+  /* box-shadow: 0 6px 20px -6px rgba(0, 0, 0, 0.19); */
+  box-shadow: 0px 15px 15px -2px rgba(0,0,0,.35);
+  padding-bottom: 2%;
+  margin-bottom: 2%
+
+}
+
+.cardBody {
+  margin-top: 10%;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: black;
+}
+
+.shadowLargeText{
+  text-shadow: 3px 4px 16px #000000, -3px -4px 16px #000;
+  font-size: 6vw;
+  margin-top: 50vh;
+  color: white;
+}
+
+
+.parallax {
+    /* The image used */
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para1 {
+  background-image: url("../img/parallax-img/transport.jpg");
+}
+
+.para2 {
+  background-image: url("../img/parallax-img/professional3.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.para3 {
+  background-image: url("../img/parallax-img/innovation.jpg");
+}
+
+.blue-texture {
+  background-image: url("../img/black.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.dark-team {
+  background-image: url("../img/team-dark.jpg");
+
+    /* Full height */
+    height: 50vw;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.row2{
+  margin-bottom: 0% !important;
+  margin-top: 0% !important;
+}
+
+.endorser{
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 1.5vw;
+  margin-top: 5%;
+}
+
+.endorsor-deets{
+  font-family: "Raleway";
+  font-weight: 300;
+  font-size: 1vw;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+hr.style17{
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+}
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+  margin-bottom: 10vh;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #ffffff;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+
+}
+
+.photo-Card{
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0, 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5%;
+  background-color: rgba(255,255,255,.83);
+}
+
+.platform-highlight{
+  padding: 5vh
+}
+
+.hypeMessage{
+  margin-top: 3.5vh;
+  margin-bottom: 10vh;
+  font-family: 'Raleway';
+  font-size: 6vh;
+  font-weight: 300;
+  text-align: center;
+}
+
+.emphasisHype{
+  margin-top: -20vh;
+  font-size: 18vh;
+}
+
+.substitutePlatformHeads{
+  display: none;
+}
+
+.mobile-exp-header{
+  display: none;
+}
+
+.job-card{
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0, 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5%;
+  background-color: rgba(255,255,255,.83);
+  padding-top: 3vh;
+}
+
+.plat-icon{
+  margin-top: 2.5vw;
+}
+
+@media (max-width: 1024px) {
+  .para1{
+    background-image: url("../img/parallax-img/transport-mobile.jpg");
+  }
+
+  .para3{
+    background-image: url("../img/parallax-img/innovation-mobile.jpg");
+  }
+
+  .cardTop {
+    display: none;
+  }
+
+  .cardBottom{
+    margin: 4vh;
+    box-shadow: 0, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding-bottom: 7vh;
+  }
+
+  li{
+    font-size: 5vw !important;
+  }
+
+  .killed-item{
+    display: none;
+  }
+
+  .icon{
+    width: 55vw;
+    margin-top: 20vw !important;
+    margin-bottom: 1vw;
+  }
+
+  .list-group-item{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    line-height: 10vw;
+  }
+
+  .overviewImage{
+    width: 20vw;
+    height: auto;
+  }
+
+  .overviewPuns{
+    font-family: "Raleway", sans-serif;
+    font-size: 8vw !important;
+    margin-top: 5vh;
+  }
+
+  .hypeMessage{
+    font-size: 2.5vh !important;
+  }
+
+  .emphasisHype{
+    font-size: 6.8vh;
+  }
+
+  #card3Body{
+    margin-right: 4%;
+  }
+
+  .shadowLargeText{
+    display: none;
+  }
+
+  .substitutePlatformHeads{
+    display: inline;
+    font-size: 8vw;
+    margin-top: 30vh;
+    color: white;
+    text-shadow: 3px 4px 16px #000000, -3px -4px 16px #000;
+  }
+
+  .para2{
+    background-position: 37.5% 25%;
+  }
+
+  .para3{
+    background-position: right;
+
+  }
+
+  #web-exp-header{
+    display: none;
+  }
+
+  .mobile-exp-header{
+    display: inline;
+  }
+
+  .endorser-box{
+    font-size: 1vh;
+    width: 20vh;
+    margin: 3vh;
+  }
+
+  .endorser{
+    font-size: 3.5vw;
+  }
+
+  .endorsor-deets{
+    font-size: 2vw;
+  }
+
+  .plat-icon{
+    margin-top: 12.5vw;
+  }
+
+  .small-margin{
+
+    margin: 0px;
+    width: 40vw;
+    font-size: 2.75vw;
+  }
+
+  .job-date{
+    margin-top: 1vw;
+    font-size: 2.5vw;
+  }
+
+  .job-org{
+    font-size: 3.5vw;
+  }
+
+  .div-btn{
+    border-right: none;
+  }
+
+  .overviewPuns{
+    font-size: 10vw;
+  }
+
+}
